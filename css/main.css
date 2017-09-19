@@ -1,26 +1,26 @@
 html {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
 }
 
 h1 {
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: .3em;
   font-size: 1.5rem;
 }
 
 .job-title {
   text-transform: uppercase;
-  letter-spacing: .01em;
+  letter-spacing: .1em;
   font-size: 1rem;
   font-weight: 700;
 }
 
 .main-text {
-  font-size: 1rem;
+  font-size: 0.75rem;
   line-height: 1.6em;
-  letter-spacing: .01em;
-  color: rgba(51,51,51,.6);
+  letter-spacing: .015rem;
+  color: rgba(51, 51, 51, .6);
   width: 700px;
 }
 
@@ -30,7 +30,7 @@ h1 {
 }
 
 footer {
-  color: rgba(51,51,51,.6);
+  color: rgba(51, 51, 51, .6);
   font-size: 1rem;
   text-align: center;
   font-style: normal;
