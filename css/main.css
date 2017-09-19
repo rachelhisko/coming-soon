@@ -17,7 +17,7 @@ h1 {
 }
 
 .main-text {
-  font-size: 0.75rem;
+  font-size: .90rem;
   line-height: 1.6em;
   letter-spacing: .015rem;
   color: rgba(51, 51, 51, .6);
@@ -31,7 +31,7 @@ h1 {
 
 footer {
   color: rgba(51, 51, 51, .6);
-  font-size: 1rem;
+  font-size: .80rem;
   text-align: center;
   font-style: normal;
 }
