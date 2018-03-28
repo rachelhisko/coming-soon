@@ -1,57 +1,91 @@
 html {
-  font-family: "PT Sans", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000;
+  background-color: #f2f3f5;
+}
+
+.button {
+  color: #424242;
+}
+
+.button:hover {
+  color: red;
+}
+
+.card {
+  background-color: #fff;
+  color: #424242;
+}
+
+.banner {
+  background-color: #1C1C1C;
+  color: white;
+  height: 15em;
+}
+
+.nav {
+  background-color: #1C1C1C;
+  color: white;
+  height: 4.5em;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: .06rem;
+}
+
+p {
   font-weight: 400;
 }
 
-h1 {
-  text-transform: uppercase;
-  letter-spacing: .3em;
-  font-size: 1.5rem;
-  color: #2e4d43;
+.social {
+  color: white;
 }
 
-.job-title {
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  font-size: 1rem;
-  font-weight: 700;
-  color: #2e4d43;
+.email {
+  color: white;
 }
 
-.main-text {
-  font-size: .9rem;
-  line-height: 1.6em;
-  letter-spacing: .015rem;
-  color: rgba(51, 51, 51, .6);
-  max-width: 800px;
+h1{
+  font-size: 55px;
 }
 
-.resize {
-  max-width: 800px;
-  height: auto;
+h1, h2, h4 {
+  font-weight: 600;
+  letter-spacing: .06rem;
 }
 
-footer {
-  color: rgba(51, 51, 51, .6);
-  font-size: .8rem;
-  text-align: center;
-  font-style: normal;
+h2 {
+  margin-top: 0
 }
 
-.wrapper {
+h5 {
+  font-weight: 400;
+  letter-spacing: .06rem;
+  margin-top: 0
+}
+
+h4 {
+  margin-top: 0.5em;
+
+}
+
+.line-length {
+  max-width: 35em;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
 }
 
-.social {
-  color: #2e4d43;
+.underline {
+  text-decoration: underline;
 }
 
-a:hover {
-  color: #728778;
+.nav-banner {
+  display: block;
+  width: 100%;
 }
 
-.subtitle {
-  color: #2e4d43;
+
+.footer {
+  background-color: #1C1C1C;
+  color: white;
+  height: 10em;
 }
